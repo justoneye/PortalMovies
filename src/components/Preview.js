@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './bootstrap';
 
-class Lastest extends Component {
+class Preview extends Component {
   render() {
     return (
       <div className="Lastest">
@@ -14,4 +13,4 @@ class Lastest extends Component {
   }
 }
 
-export default Lastest;
+export default Preview;

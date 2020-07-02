@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 
-import './bootstrap';
-
-import logo from './multimedia/logo.svg';
+import logo from '../multimedia/logo.svg';
 
 class Header extends Component {
   render() {
     return (
       <div className="Header">
         <div className="Header-Logo">
-          <img src={logo} className="logo" alt="MovieRates logo" />
+          <img src={logo} className="logo"/>
         </div>
         <div className="Menu">
           <li>Home</li>

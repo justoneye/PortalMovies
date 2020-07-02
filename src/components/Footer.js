@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-import './bootstrap';
-
-import logo from './multimedia/logo.svg';
-
 class Footer extends Component {
   render() {
     return (

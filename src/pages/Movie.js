@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './bootstrap';
-
 import Header from '../components/Header';
 import Search  from '../components/Search';
 import MovieInfo  from '../components/MovieInfo';
