@@ -4,13 +4,8 @@ class Search extends Component {
   render() {
     return (
       <div className="Search">
-        <form>
-          <input 
-          className="searchBar"
-          type="text"
-          name="searchMovie"/>
-        </form>
-        <button className="btn bnt-info">Search</button>
+          <input className="searchBar" placeholder="Enter here a seach term to find a movie"/>
+        <button type="submit" className="btn bnt-info searchButton">Search</button>
       </div>
     );
   }

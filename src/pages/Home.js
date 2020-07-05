@@ -5,12 +5,14 @@ import Search  from '../components/Search';
 import Lastest  from '../components/Lastest';
 import Footer  from '../components/Footer';
 
+import '../components/component_styles.css'
+
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="Page">
+<div className="Page">
         <Header/> 
-        <Search/> 
+        <Search/>
         <div className="PreviewLastestMovies">
           <Lastest/> 
         </div> 

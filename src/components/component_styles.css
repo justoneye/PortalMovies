@@ -1,0 +1,93 @@
+/*
+ • amarillo • naranja • rojo    • café    • azul
+ • #edc951  • #eb6841 • #cc2a36 • #4f372d • #00a0b0
+*/
+
+/* Component: Header */
+
+.Header {
+    width:100%;
+    background-color: #cc2a36;
+  }
+
+.Header-Title {
+    background-color: #cc2a36;
+  }
+    
+  .Header__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .Header-Logo {
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+    justify-content: left;
+  }
+
+
+
+/* Component: Lastest */ 
+
+.Lastest
+{
+  padding: 20px;
+}
+
+.Lastest_Title
+{
+  text-align: center;
+}
+
+.Lastest_View
+{
+  align-content: center;
+  padding: 20px;
+}
+
+
+/* Component: Preview */ 
+
+.Preview
+{
+  padding: 20px;
+}
+
+
+
+/* Component: Search */ 
+
+.Search
+{
+    background-color: #eb6841;
+    padding: 20px;
+    display: block;
+}
+
+.SearchBar
+{
+    display: block;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.searchButton
+{
+    padding: 20px;
+}
+
+
+/* Component: Footer */
+
+.Footer{
+    background-color: #4f372d;
+    padding: 25px;
+    align-items: center;
+}
+
+/*Other components*/
+
+li{
+    color: #ffffff;    
+}
