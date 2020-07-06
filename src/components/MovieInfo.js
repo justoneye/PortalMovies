@@ -5,19 +5,18 @@ class Movie extends Component {
     return (
       <div className="Movie_Information">
         <div className="Movie_Title">
-          <h3>Title</h3>
-          <h2>(Year)</h2>
-          <h3>Rating</h3>
+          <h1>Title: {movie.title}</h1>
+          <br></br>
+          <h2>Release Date: {movie.release_date}</h2>
+          <h2>Rate: {movie.vote_average}</h2>
         </div>
         <div className="Movie_Poster">
-          <img>Preview Image</img>
-        </div>
-        <div className="Movie_InfoTable">
-          ...
+          <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}/50px160`}>Preview Image</img>
         </div>
         <div className="Movie_Storyline">
-          <h3>Storyline</h3>
-          <p>Lorem Ipsum...</p>
+          <h2>Overview: </h2>
+          <br></br>
+          <p>{movie.overview}</p>
         </div>
         <button>Back</button>
       </div>
