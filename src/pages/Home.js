@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from '../components/Header';
+import Search  from '../components/Search';
 import Lastest  from '../components/Lastest';
 import Footer  from '../components/Footer';
 
@@ -11,6 +12,7 @@ export default class Home extends React.Component {
     return (
 <div className="Page">
         <Header/> 
+        <Search/>
         <div className="PreviewLastestMovies">
           <Lastest/> 
         </div> 
