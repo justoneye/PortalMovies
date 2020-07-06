@@ -1,27 +1,22 @@
 /*
- • amarillo • naranja • rojo    • café    • azul
- • #edc951  • #eb6841 • #cc2a36 • #4f372d • #00a0b0
+ • azul    • gris1   • rojo    • amarillo • gris2   • rosa
+ • #138b9c • #ccccb2 • #e7261d • #f5cf77  • #dadad0 • #e6615c
 */
 
 /* Component: Header */
 
-.Header {
-    width:100%;
-    background-color: #cc2a36;
-  }
+  .Header {
+      width:100%;
+      background-color: #f5cf77;
+    }
 
-.Header-Title {
-    background-color: #cc2a36;
-  }
-    
-  .Header__brand:hover {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
+  .Header-Title {
+      color: #cc2a36;
+    }
+      
   .Header-Logo {
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
     padding: 15px;
     justify-content: left;
   }
@@ -32,7 +27,7 @@
 
 .Lastest
 {
-  padding: 20px;
+  padding: 15px;
 }
 
 .Lastest_Title
@@ -43,7 +38,7 @@
 .Lastest_View
 {
   align-content: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 
@@ -51,7 +46,7 @@
 
 .Preview
 {
-  padding: 20px;
+  padding: 15px;
 }
 
 
@@ -60,8 +55,8 @@
 
 .Search
 {
-    background-color: #eb6841;
-    padding: 20px;
+    background-color: #138b9c;
+    padding: 15px;
     display: block;
 }
 
@@ -69,21 +64,21 @@
 {
     display: block;
     align-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .searchButton
 {
-    padding: 20px;
+    margin-left: 30px;
 }
 
 
 /* Component: Footer */
 
 .Footer{
-    background-color: #4f372d;
-    padding: 25px;
-    align-items: center;
+    background-color: #dadad0;
+    padding: 15px;
+    text-align: center;
 }
 
 /*Other components*/

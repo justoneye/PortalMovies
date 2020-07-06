@@ -5,7 +5,7 @@ class Search extends Component {
     return (
       <div className="Search">
           <input className="searchBar" placeholder="Enter here a seach term to find a movie"/>
-        <button type="submit" className="btn bnt-info searchButton">Search</button>
+        <button type="button" variant="primary" className="searchButton">Search</button>
       </div>
     );
   }
