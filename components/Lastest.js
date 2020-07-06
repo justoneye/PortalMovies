@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './bootstrap';
+
+import Preview from '../components/Preview'
 
 class Lastest extends Component {
   render() {
     return (
-      <div className="PreviewMovie">
-        <img>Preview Image</img>
-        <h3>Title</h3>
-        <h2>(Year)</h2>
-        <button>View Movie</button>
+      <div className="Lastest">
+        <h1 className="Lastest_Title">Lastest Movies</h1>
+        <p>Check the information of the lastest movies around the world</p>
+        <div className="row Lastest_View">
+          <Preview/>
+        </div>
       </div>
     );
   }

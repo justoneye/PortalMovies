@@ -1,0 +1,89 @@
+/*
+ • azul    • gris1   • rojo    • amarillo • gris2   • rosa
+ • #138b9c • #ccccb2 • #e7261d • #f5cf77  • #dadad0 • #e6615c
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h5{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Component: Header */
+
+.Header{
+  width:100%;
+  background-color: #f5cf77;
+}
+
+.Header-Title {
+  color: #cc2a36;
+}
+      
+.Header-Logo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  justify-content: left;
+}
+ 
+
+  
+/* Component: Search */ 
+
+.Search{
+    background-color: #138b9c;
+    padding: 15px;
+    display: block;
+}
+
+.SearchBar{
+    display: block;
+    width: 100%;
+    align-content: center;
+    border-radius: 15px;
+}
+
+
+
+/* Component: Lastest */ 
+
+.Lastest{
+  padding: 15px;
+}
+
+.Lastest_Title
+{
+  text-align: center;
+}
+
+.Lastest_View{
+  align-content: center;
+  padding: 30px;
+}
+
+
+/* Component: Preview */ 
+
+.PreviewLastestMovies{
+  padding: 15px;
+}
+
+.Card{
+  box-shadow: 0px, 0px, 6px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+
+
+/* Component: Footer */
+
+.Footer {
+  background-color: #ccccb2;
+  padding: 10px;
+  text-align: center;
+}
