@@ -1,65 +1,84 @@
 /*
- • amarillo • naranja • rojo    • café    • azul
- • #edc951  • #eb6841 • #cc2a36 • #4f372d • #00a0b0
+ • azul    • gris1   • rojo    • amarillo • gris2   • rosa
+ • #138b9c • #ccccb2 • #e7261d • #f5cf77  • #dadad0 • #e6615c
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h5{
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* Component: Header */
 
-.Header {
-    width: 100%;
-    padding: 0.5rem 0;
-    background-color: #cc2a36;
-  }
-    
-  .Header__brand:hover {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .Header-logo {
-    margin-right: 0.5rem;
-    width: 25%;
-    height: 25%;
-    justify-content: left;
-  }
+.Header{
+  width:100%;
+  background-color: #f5cf77;
+}
 
+.Header-Title {
+  color: #cc2a36;
+}
+      
+.Header-Logo {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  justify-content: left;
+}
+ 
+
+  
+/* Component: Search */ 
+
+.Search{
+    background-color: #138b9c;
+    padding: 15px;
+    display: block;
+}
+
+.SearchBar{
+    display: block;
+    width: 75%;
+    align-content: center;
+    border-radius: 15px;
+}
+
+
+
+/* Component: Lastest */ 
+
+.Lastest{
+  padding: 15px;
+}
+
+.Lastest_Title
+{
+  text-align: center;
+}
+
+.Lastest_View{
+  align-content: center;
+  padding: 30px;
+}
 
 
 /* Component: Preview */ 
 
-.Preview
-{
-    padding: 20px;
-}
-
-
-
-/* Component: Search */ 
-
-.Search
-{
-    background-color: #eb6841;
-    padding: 20px;
-}
-
-.SearchBar
-{
-    align-content: center;
-    border-radius: 10px;
+.PreviewLastestMovies{
+  padding: 15px;
 }
 
 
 
 /* Component: Footer */
 
-.Footer{
-    background-color: #4f372d;
-    padding: 25px;
-    align-items: center;
-}
-
-/*Other components*/
-
-li{
-    color: #ffffff;    
+.Footer {
+  background-color: #ccccb2;
+  padding: 10px;
+  text-align: center;
 }
