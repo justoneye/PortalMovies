@@ -41,6 +41,7 @@ my-app/
 
  https://github.com/justoneye/PortalMovies
 
+<br/><br/><hr>
 
 ## Preguntas
 
